@@ -95,3 +95,28 @@ main{
     opacity: 1;
     margin: .7rem auto .5rem;
 }
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+footer h3{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+/* screen above 700px */
+@media(min-width: 700px){
+    #landing{
+        display: flex;
+        height: 100%;
+    }
+    .landing-text,
+    .landing-img{
+        height: 100vh;
+    }
+    .btn{
+        padding: 1rem 3rem;
+    }
+}
